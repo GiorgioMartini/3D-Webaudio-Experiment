@@ -1,5 +1,3 @@
-sprockets.append_path File.join root, 'bower_components'
-sprockets.import_asset 'foundation'
 
 ###
 # Compass
@@ -50,7 +48,11 @@ end
 #   end
 # end
 
+#sprockets.append_path File.join root, 'bower_components'
+
+
 set :css_dir, 'stylesheets'
+
 
 set :js_dir, 'javascripts'
 
