@@ -10,15 +10,14 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
     
-    <%= stylesheet_link_tag "normalize" %>
+    <%= stylesheet_link_tag "all", "normalize" %>
     <link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
     <%= stylesheet_link_tag  "styles" %>
 
 
     <%= javascript_include_tag  "all" %>
-    <script src="javascripts/audio_stuff.js"></script>
     <script src="bower_components/foundation/js/foundation.js"></script>
-    <script src="javascripts/three.min.js"></script>
+   
 
 
   </head>

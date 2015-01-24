@@ -44,7 +44,7 @@ function loadAudioElement(url) {
 }
 
 /* Let's load our file. */
-loadAudioElement('/audio/shorter.wav').then(function(elem) {
+loadAudioElement('/audio/shorter.mp3').then(function(elem) {
     /* Instantiate the Sound class into our hoisted variable. */
     audio = Object.create(Sound);
     /* Set the element of `audio` to our MediaElement. */
